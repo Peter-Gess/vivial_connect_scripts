@@ -1,4 +1,4 @@
-# Script to demonstrate buying a number via the CLI
+# Script to demonstrate buying a number via the CLI using the Vivial Connect SDK
 
 from vivialconnect import Resource, Number
 
