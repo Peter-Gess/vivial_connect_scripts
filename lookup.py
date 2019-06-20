@@ -7,8 +7,6 @@ Resource.api_key = ""
 Resource.api_secret = ""
 Resource.api_account_id = ""
 
-new_number = []
-
 def find_number():
     numbers = Number.available(country_code='US',
                            number_type='local',
