@@ -1,2 +1,2 @@
-# vivial_connect_scripts
+# Vivial Connect Scripts
 Vivial Connect Demo Scripts
