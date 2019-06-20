@@ -1,9 +1,11 @@
+# Sending a message via the CLI using the Vivial Connect Python SDK
+
 from vivialconnect import Resource, Message
 
 # Configure SDK
-Resource.api_key = "MTKOVFNVYKUOPQFD9LZTLYQZRJAGW4VUJLV"
-Resource.api_secret = "kuvwFXgKXson8JYomc5OPurrEoa96cWfTlOg7PXob8mvEeRh"
-Resource.api_account_id = "10193"
+Resource.api_key = ""
+Resource.api_secret = ""
+Resource.api_account_id = ""
 
 # GET most recent message
 def getm():
@@ -11,9 +13,11 @@ def getm():
 
 
 # Set up Message object
-from_number = "+16122042587"
-to_number = "+13202930706"
+from_number = ""
+to_number = ""
 
+
+# Send Message
 message = Message()
 message.from_number = from_number
 message.to_number = to_number
