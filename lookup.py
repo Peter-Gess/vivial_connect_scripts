@@ -1,11 +1,11 @@
-#improvement:  store the bought phone number in a variable so you can just invoke buy_number()
+# Script to demonstrate buying a number via the CLI
 
 from vivialconnect import Resource, Number
 
 # Configure SDK
-Resource.api_key = "MTKOVFNVYKUOPQFD9LZTLYQZRJAGW4VUJLV"
-Resource.api_secret = "kuvwFXgKXson8JYomc5OPurrEoa96cWfTlOg7PXob8mvEeRh"
-Resource.api_account_id = "10193"
+Resource.api_key = ""
+Resource.api_secret = ""
+Resource.api_account_id = ""
 
 new_number = []
 
@@ -19,11 +19,7 @@ def find_number():
     for number in numbers:
         print(number.name, number.phone_number_type, number.phone_number)
 
-    #global new_number
-    #new_number = numbers[1]
-    #return new_number
 
-# Problem is I need to access just he phone_number prop on that variable but the list has no prop forthat
 def buy_number(phone_number=None, phone_number_type='local'):
     
     number = Number()
