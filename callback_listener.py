@@ -1,4 +1,5 @@
 # Simple Flask App daemon process to receive callback_listener requests
+# Export environment variables and then run app via 'flask run'
 # Recommended that you use ngrok to expose a local port to the web to receive data from callback
 
 import datetime
