@@ -1,4 +1,5 @@
 # Script to demonstrate buying a number via the CLI using the Vivial Connect SDK
+# Interact with this script in the Python Shell by running python -i lookup.py
 
 from vivialconnect import Resource, Number
 
