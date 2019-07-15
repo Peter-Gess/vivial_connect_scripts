@@ -1,4 +1,5 @@
 # Sending a picture message using the Vivial Connect Python SDK
+# Interact with this script in the Python Shell by running python -i lookup.py
 
 from vivialconnect import Resource, Message, Attachment
 
