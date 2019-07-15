@@ -1,3 +1,6 @@
+# Simple Flask App daemon process to receive callback_listener requests
+# Recommended that you use ngrok to expose a local port to the web to receive data from callback
+
 import datetime
 import json
 
