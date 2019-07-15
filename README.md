@@ -1,2 +1,2 @@
 # Vivial Connect Scripts
-Vivial Connect Demo Scripts
+Use these example scripts to enable basic functionality with the Vivial Connect SMS API
