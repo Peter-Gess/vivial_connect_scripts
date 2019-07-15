@@ -1,4 +1,5 @@
 # Sending a message via the CLI using the Vivial Connect Python SDK
+# Interact with this script in the Python Shell by running python -i sms.py
 
 from vivialconnect import Resource, Message
 
