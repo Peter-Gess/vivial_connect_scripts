@@ -1,3 +1,6 @@
+// Simple JavaScript example code for sending an SMS message without downloading a Vivial Connect Client SDK
+// Don't forget to install dependencies
+
 'use strict';
 
 const request = require('request');
