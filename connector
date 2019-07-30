@@ -1,3 +1,6 @@
+# Connectors are used to increase throughput spreading your volume over multiple numbers
+# Interact with this script in the python shell by running python -i connector.py
+
 from vivialconnect import Resource, Message
 
 # Configure SDK
